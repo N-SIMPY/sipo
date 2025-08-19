@@ -1,41 +1,45 @@
+# 🚀 Sipo - Maze Game
 
-# Maze Game
+Sipo is a fun browser-based **maze-solving game** where you guide your character (🧑‍🚀 Robot → 🏠 Rocket) through a randomly generated maze.  
+Built with **HTML, CSS, and JavaScript**.
 
-![App Screenshot](https://github.com/AnishAwadh/Maze-Game/assets/95581614/9149e358-f443-4c5a-83eb-ec50408252dd)
+---
 
-## Introduction
+## 🎮 How to Play
+- Click **Start** to generate a maze.  
+- Use **arrow keys** (⬆️⬇️⬅️➡️) to move your character.  
+- Reach the **rocket** to win!  
+- Choose difficulty: *Easy, Medium, Hard, Extreme*.  
 
-The "Rat in a Maze" problem is a classic example of a maze-solving puzzle. 
+---
 
-Applying the same concept the goal of the puzzle is to find a path for the KEY from the starting point to the destination of its HOUSE, while avoiding obstacles or walls within the maze. 
+## 🖼️ Screenshots
+*(Add screenshots here – e.g. `home.png`, in repo root)*  
 
-This project is a JavaScript-based implementation of the Rat in a Maze problem using the RECURSION and BACKTRACKING algorithm. The solution is visualized on a website using JavaScript and CSS.
+![Home](./home.png)
 
-## Demo
-You can see a live demo of the Rat in a Maze solver here: 
+---
 
-https://maze-game-anish.vercel.app/
+## ⚡ Features
+- 🎲 Random maze generator  
+- ⌨️ Keyboard + mobile swipe controls  
+- 🏆 Difficulty levels  
+- 🎨 Custom graphics (Robot & Rocket)  
 
-## Features
+---
 
-- Interactive maze visualization.
-- Recursive and backtracking algorithm for solving the maze.
-- Animation to visualize the pathfinding process.
-- Start and end point selection.
-- Wall placement feature for custom maze creation.
+## 🛠️ Tech Stack
+- **HTML5** (Canvas for rendering maze)  
+- **CSS3** (Styling & layout)  
+- **JavaScript (ES6)** (Game logic)  
 
-## Algorithm
+---
 
-The Rat in a Maze problem is solved using a recursive and backtracking algorithm. Here's a high-level overview of the algorithm:
+## 🚀 Live Demo
+Play here 👉 [Sipo on GitHub Pages](https://N-SIMPY.github.io/sipo)
 
-- Check if the current position is the destination. If yes, the maze is solved.
-- If not, check if the current position is a valid move (i.e., not a wall and within the maze boundaries).
-- If it's a valid move, mark the current position as part of the solution path and recursively explore the adjacent cells.
-- If no valid move is found, backtrack to the previous cell and explore other directions.
+---
 
-Continue this process until a solution is found or all possibilities are exhausted.
-
-
-![App Screenshot](https://github.com/AnishAwadh/Maze-Game/assets/95581614/f82b53fa-0928-409f-afa0-2d2cf56cd759)
-
-When Successfully completed it will generate and return the user with number of steps taken for the completion of the Game AND also a button for !TRY AGAIN! as COOL.
+## 📂 Project Structure
+## 👩‍💻 Author
+Made with ❤️ by **Simpy**
