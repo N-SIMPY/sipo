@@ -36,7 +36,7 @@ Built with **HTML, CSS, and JavaScript**.
 ---
 
 ## 🚀 Live Demo
-👉 [**Play Here**](https://N-SIMPY.github.io/sipo/)
+👉 [**Play Here**]
 
 ---
 
